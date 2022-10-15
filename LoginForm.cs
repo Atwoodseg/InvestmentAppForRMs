@@ -14,7 +14,6 @@ namespace LoginForm
     public partial class LoginForm : Form
 
     {
-        private const string V = "' AND Password ='";
         private string conn;
         private SqlCommand query;
         private object return_false;
