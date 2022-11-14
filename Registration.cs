@@ -3,23 +3,16 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RM_App
+namespace InvestmentAppForRMs
 {
-    public partial class Form1 : Form
+    public partial class Registration : Form
     {
-        public Form1()
+        public Registration()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

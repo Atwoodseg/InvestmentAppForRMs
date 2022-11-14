@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace InvestmentAppForRMs
+namespace RM_App
 {
     public partial class HomePage : Form
     {

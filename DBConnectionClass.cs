@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data.Common;
 
-namespace Login_and_Registration_System
+namespace RM_App
 {
     internal class DBConnectionClass
     {

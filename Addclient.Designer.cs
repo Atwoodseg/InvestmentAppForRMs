@@ -1,5 +1,5 @@
 ﻿
-namespace InvestmentAppForRMs
+namespace RM_App
 {
     partial class Addclient
     {

@@ -6,13 +6,23 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace InvestmentAppForRMs
+namespace RM_App
 {
     public partial class Login : Form
     {
         public Login()
         {
+            NewMethod();
+        }
+
+        private static void NewMethod()
+        {
             InitializeComponent();
+        }
+
+        private static void InitializeComponent()
+        {
+            throw new NotImplementedException();
         }
     }
 }
