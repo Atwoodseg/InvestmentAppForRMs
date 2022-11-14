@@ -1,4 +1,4 @@
-﻿namespace Login_and_Registration_System
+namespace Login_and_Registration_System
 {
     partial class LoginForm
     {

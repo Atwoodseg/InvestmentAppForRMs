@@ -1,83 +1,70 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Linq;
+using System.Data.SqlClient;
 using System.Drawing;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-namespace RM_APP
+namespace RM_App
 {
     public partial class LoginForm : Form
+
     {
-        /*
-         we need to download the mysql connector
-        * add the connector to our project
-        * create a connectionnow with mysql
-        * open xampp and start mysql & apache
-        * go to php
-        */
+        private string conn;
+        private SqlCommand query;
+        private object return_false;
+
         public LoginForm()
         {
             InitializeComponent();
-
-            this.textBoxPassword.AutoSize = false;
-            this.textBoxPassword.Size = new Size(this.textBoxPassword.Width, 50);
         }
 
-        private void LoginForm1_Load(object sender, EventArgs e)
-        {
-            // TODO: This line of code loads data into the 'database1DataSet.Login' table. You can move, or remove it, as needed.
-            this.loginTableAdapter.Fill(this.database1DataSet.Login);
 
+        private SqlCommand GetQuery()
+        {
+            return query;
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void button1_Login(object sender, EventArgs e, SqlCommand query)
         {
-            
-        }
-
-        private void labelClose_MouseEnter(object sender, EventArgs e)
-        {
-         
-        }
-
-        private void labelClose_MouseLeave(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void labelClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void buttonLogin_Click(object sender, EventArgs e)
-        {
-           // DBConnectionClass db = new DBConnectionClass();
-
-            String username = textBoxUsername.Text;
-            String password = textBoxPassword.Text;
-            DataTable table = new DataTable();
-
-
-           
-         //check if the user exists or not
-
-           if (table.Rows.Count > 0)
+            if ((bool)isValid())
             {
-                MessageBox.Show("YES");
-            }
-            else
-            {
-                MessageBox.Show("NO");
+                // using (var conn = new SqlConnection(@"Data Source=(localDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True")) ;
+                // query = "SELECT PASSWORD FROM LOGIN WHERE Username ='" + textUserName.Text. "'"; //query SELECT PASSWORD WHERE USERNAME IS username.txt
+                // SqlDataAdapter sda = new SqlDataAdapter(query, conn);
+                // DataTable dta = new DataTable();
+                //sda.Fill(dta);
+                //if (dta.Rows.Count == 1)
+                // {
+                //     Form1 form1 = new Form1();
+                // this.Hide();
+                //     form1.Show();
+                //  }
+                //  }
+
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private object isValid()
+        {
+            if (textUserName.Text.TrimStart() == string.Empty)
+            {
+                MessageBox.Show("Enter valid user name please!", "Error");
+                object return_false1 = return_false;
+            }
+            else if (txtPassword.Text.TrimStart() == string.Empty)
+            {
+                MessageBox.Show("Enter valid password please!", "Error");
+                return false;
+            }
+            return true;
+        }
+
+        private static void textUserName_TextChanged(object sender, EventArgs e)
         {
 
         }

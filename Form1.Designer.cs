@@ -1,4 +1,4 @@
-﻿namespace LoginForm
+﻿namespace RM_App
 {
     partial class Form1
     {
