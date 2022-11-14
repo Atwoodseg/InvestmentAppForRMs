@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Login_and_Registration_System
+namespace RM_APP
 {
     public partial class RegisterForm : Form
     {

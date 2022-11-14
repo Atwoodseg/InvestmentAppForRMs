@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 
-namespace Login_and_Registration_System
+namespace RM_APP
 {
     internal class LoginBE
     {

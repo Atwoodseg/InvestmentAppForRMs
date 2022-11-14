@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LoginForm")]
+[assembly: AssemblyTitle("RM_Forms_app")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LoginForm")]
+[assembly: AssemblyProduct("RM_Forms_app")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1f6c59a0-0ad7-443a-82d4-15134f413445")]
+[assembly: Guid("6b07e6ab-ad13-45c8-9421-9d7b482295ad")]
 
 // Version information for an assembly consists of the following four values:
 //

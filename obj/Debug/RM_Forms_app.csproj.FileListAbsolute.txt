@@ -1,0 +1,14 @@
+C:\Users\asus\source\repos\RM_Forms_app\obj\Debug\RM_Forms_app.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\RM_Forms_app\obj\Debug\RM_Forms_app.csproj.SuggestedBindingRedirects.cache
+C:\Users\asus\source\repos\RM_Forms_app\obj\Debug\RM_APP.LoginForm1.resources
+C:\Users\asus\source\repos\RM_Forms_app\obj\Debug\RM_APP.Properties.Resources.resources
+C:\Users\asus\source\repos\RM_Forms_app\obj\Debug\RM_APP.RegisterForm1.resources
+C:\Users\asus\source\repos\RM_Forms_app\obj\Debug\RM_Forms_app.csproj.GenerateResource.cache
+C:\Users\asus\source\repos\RM_Forms_app\obj\Debug\RM_Forms_app.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\RM_Forms_app\bin\Debug\DBLogin.mdf
+C:\Users\asus\source\repos\RM_Forms_app\bin\Debug\DBLogin_log.ldf
+C:\Users\asus\source\repos\RM_Forms_app\bin\Debug\RM_APP.exe.config
+C:\Users\asus\source\repos\RM_Forms_app\bin\Debug\RM_APP.exe
+C:\Users\asus\source\repos\RM_Forms_app\bin\Debug\RM_APP.pdb
+C:\Users\asus\source\repos\RM_Forms_app\obj\Debug\RM_APP.exe
+C:\Users\asus\source\repos\RM_Forms_app\obj\Debug\RM_APP.pdb
