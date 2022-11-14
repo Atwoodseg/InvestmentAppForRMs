@@ -1,5 +1,5 @@
 ﻿
-namespace Login_and_Registration_System
+namespace RM_APP
 {
     partial class RegisterForm
     {
